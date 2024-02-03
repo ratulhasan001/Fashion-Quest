@@ -53,17 +53,15 @@ ul li {
     margin-left: 40px;
     
 }
-.allicons {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-}
+/* .allicons {
+    
+} */
 .common_icons {
-    padding: 30px 55px;
+    padding : 10px;
+    margin : 10px;
     background-color: #ededed;
     border-radius: 20px;
-    justify-content: center;
-    margin: 20px;
+    text-align: center;
 }
 .cardlist {
     display: flex;  
@@ -161,7 +159,7 @@ ul li {
         text-align: center;
     }
     .twotext {
-        margin-right: 30px;
+        margin-right: 0px;
     }
     
 }
