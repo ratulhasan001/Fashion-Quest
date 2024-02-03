@@ -72,7 +72,7 @@ ul li {
     margin: 15px;
 }
 .allcards {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 .heart {
@@ -97,11 +97,11 @@ ul li {
 .beffoottext {
     margin-top: 150px;
     text-align: center;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 .pp {
     text-align: center;
-    margin-right: 160px;
+    /* margin-right: 160px; */
     color: white;
 }
 .footersection {
@@ -155,11 +155,17 @@ ul li {
     .footertxt {
         text-align: center;
     }
+    .beforefooter {
+        justify-content: center;
+    }
     .pp {
         text-align: center;
     }
     .twotext {
-        margin-right: 0px;
+        justify-content: center;
+    }
+    .cardlist {
+        text-align: center;
     }
     
 }
