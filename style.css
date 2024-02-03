@@ -1,9 +1,13 @@
 ul li {
     padding : 20px;
+    font-size: 20px;
+    font-weight: 500px;
 }
+
 .banner_title {
     font-size: 25px;
     color: #ef4c7d;
+    font-weight: 700;
 
 }
 .iphone {
@@ -49,7 +53,115 @@ ul li {
     margin-left: 40px;
     
 }
-.phone {
+.allicons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.common_icons {
+    padding: 30px 55px;
     background-color: #ededed;
-    border-radius: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+.cardlist {
+    display: flex;  
+    justify-content: center;
+}
+.cardText {
+    font-size:20px;
+    margin: 15px;
+}
+.allcards {
+    display: flex;
+    justify-content: center;
+}
+.heart {
+    text-align: right;
+    font-size: 20px;
+    margin-right: 20px;
+    opacity: 50%;
+}
+.beforefooter {
+    background-color: #958AD4;
+}
+.img1 {
+    margin: 40px;
+    height: auto;
+    width: 350px;
+}
+.img2 {
+    margin: auto;
+    height: auto;
+    width: 450px;
+}
+.beffoottext {
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 120px;
+}
+.pp {
+    text-align: center;
+    margin-right: 160px;
+    color: white;
+}
+.footersection {
+    background-color: #0E071B;
+}
+.lastone {
+    height: auto;
+    width: 280px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 50px;
+}
+.lasticons {
+    height: auto;
+    width: 280px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 50px;
+}
+.allcommon {
+    color: white;
+    gap: 10px;
+}
+.footertxt {
+    height: auto;
+    width: 280px;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    padding: 50px;
+}
+.footertxt11 {
+    color: white;
+}
+
+@media only screen and (max-width:480px) {
+    .iphone {
+        color: black;
+        font-size: 55px;
+        font-weight: 300px;
+    }
+    .headsetPic {
+        height: auto;
+        max-width: 40%;
+    }
+    .lastimg {
+        text-align: center;
+    }
+    .twotext {
+        text-align: center;
+    }
+    .footertxt {
+        text-align: center;
+    }
+    .pp {
+        text-align: center;
+    }
+    .twotext {
+        margin-right: 30px;
+    }
+    
 }
